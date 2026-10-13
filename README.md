@@ -127,17 +127,12 @@ tests/unit/              fast unit tests
 tests/integration/       one-session full pipeline smoke and contract tests
 ```
 
-## Resume-safe project description
-
-Built a public-data-backed AMXL-style heavy/bulky delivery science framework combining public last-mile route data, e-commerce freight/product attributes, demand forecasting proxies, and synthetic service constraints for demand forecasting, route sequencing, capacity planning, workforce scheduling, KPI monitoring, and release-gated operational reporting.
-
-
 ## Repository hygiene
 
 Generated `data/processed/`, `outputs/`, and `reports/` artifacts are ignored by Git. Representative sample artifacts are stored under `examples/sample_outputs/` and `examples/sample_reports/` after validation so reviewers can inspect the expected outputs without confusing them with freshly generated local results.
 
 <!-- FINAL_VALIDATED_MODEL_SELECTION_START -->
-## Final validated model selection
+## Model selection results
 
 This project is an offline, public-data-backed heavy/bulky delivery science framework using public/proxy delivery, e-commerce, and demand data. The final validated result is a model-selection story, not a claim that every advanced model wins on every metric.
 
@@ -183,5 +178,4 @@ Specialty extension wording:
 
 > Adapted an ABC-style safe-deflation layer to quantile capacity planning, preserving 0.909 recall while reducing over-reserve from 12.41 to 12.24 and slightly improving F1 over the tree-quantile guardrail under offline public-data validation.
 <!-- FINAL_VALIDATED_MODEL_SELECTION_END -->
-
 
